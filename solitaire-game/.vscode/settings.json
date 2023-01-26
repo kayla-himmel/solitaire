@@ -1,0 +1,36 @@
+{
+  "editor.fontSize": 12,
+  "editor.tabSize": 2,
+  "editor.wordWrap": "on",
+  "editor.bracketPairColorization.independentColorPoolPerBracketType": true,
+  "editor.codeActionsOnSave": {
+    "source.fixAll": true
+  },
+  "workbench.startupEditor": "welcomePageInEmptyWorkbench",
+  "workbench.editor.highlightModifiedTabs": false,
+  "terminal.integrated.cursorBlinking": true,
+  "css.lint.float": "warning",
+  "scss.format.spaceAroundSelectorSeparator": true,
+  "scss.lint.float": "warning",
+  "css.styleSheets": [
+  
+  ],
+  "eslint.alwaysShowStatus": true,
+  "eslint.format.enable": true,
+  "eslint.probe": [
+    "javascript",
+    "javascriptreact",
+    "typescript",
+    "typescriptreact",
+    "html",
+    "vue",
+    "markdown",
+    "css",
+    "scss"
+  ],
+  "eslint.run": "onSave",
+  "material-icon-theme.activeIconPack": "react",
+  "material-icon-theme.folders.color": "#FF5733",
+  "typescript.format.semicolons": "insert",
+  "files.autoSave": "afterDelay"
+}
