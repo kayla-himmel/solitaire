@@ -1,7 +1,7 @@
 import {Card} from './cards/Card';
 
 // SPADES
-import spadesAce from "../assets/spades_ace.svg";
+import {spades_ace.svg} from "../assets";
 import spades2 from "../assets/spades_2.svg";
 import spades3 from "../assets/spades_3.svg";
 import spades4 from "../assets/spades_4.svg";
