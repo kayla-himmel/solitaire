@@ -5,5 +5,5 @@ export interface CardProps {
   color?: string; //set up through logic
   value: number;
   image: string;
-  faceUp: false;
+  faceUp: boolean;
 }
