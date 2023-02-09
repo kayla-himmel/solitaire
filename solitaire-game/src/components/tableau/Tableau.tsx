@@ -1,9 +1,9 @@
+import { HtmlAttributes } from 'csstype';
 import React from 'react'
 import { TableauProps } from './Tableau.interfaces'
 
-export const Tableau = ({
-  pileLocation,
-  faceUpCard
+export const Tableau: React.FC<TableauProps> = ({
+  children,
 }) => {
   // create the 7 tableau piles (the main stacks of the game board)
   const tableauPile ()) => {
