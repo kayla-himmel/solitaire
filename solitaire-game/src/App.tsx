@@ -2,7 +2,6 @@ import React from 'react';
 import logo from './logo.svg';
 import './App.css';
 import { DeckObject } from './components/DeckObject';
-import {Card} from './components/cards/Card';
 
 function App() {
   return (

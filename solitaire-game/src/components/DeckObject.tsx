@@ -123,6 +123,7 @@ export const DeckObject = () => {
     new Card('HEARTS', 12, heartsQueen),
     new Card('HEARTS', 13, heartsKing),
   ];
+  // !! REMOVE LOG ONCE GAME START IS IMPLEMENTED
   console.log(deck);
   return (
     <div onClick={() => shuffleDeck(deck)}>
