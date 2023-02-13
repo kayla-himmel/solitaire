@@ -18,7 +18,6 @@ You will also see any lint errors in the console.
 
 Launches unit tests for components. We're using React Testing Library and Jest for unit testing.
 
-
 ### `npm testcafe`
 
 Launches integration tests. We're using TestCafe for integration testing.
