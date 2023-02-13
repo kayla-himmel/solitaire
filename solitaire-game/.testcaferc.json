@@ -1,3 +1,3 @@
 {
-  "src": ["./src/tests/*.e2e.tsx"]
+  "src": ["./src/tests_integration/*.e2e.tsx"]
 }

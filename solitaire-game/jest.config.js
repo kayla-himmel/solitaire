@@ -1,12 +1,5 @@
-const {defaults} = require('jest-config');
-
+/** @type {import('ts-jest').JestConfigWithTsJest} */
 module.exports = {
-  bail: true,
-  moduleFileExtensions: [...defaults.moduleFileExtensions, 'ts', 'tsx'],
-  roots: ['src'],
-  testMatch: ['<rootDir>/src/**/?(*.)test.{ts,tsx}'],
-  transform: {
-    '^.+\\.tsx?$': 'ts-jest',
-  },
-  verbose: true,
+  preset: 'ts-jest',
+  testEnvironment: 'node',
 };
