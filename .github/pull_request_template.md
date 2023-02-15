@@ -4,6 +4,11 @@ Briefly describe what will be merged from this branch.
 ## Ticket
 [Link ticket here.]
 
+## Checklist
+[ ] I have manually tested the ACs for this ticket
+[ ] I have run the automated tests for the project and passed 100% of them
+[ ] I have updated any necessary documentation required for this ticket
+
 ## Screenshots (if applicable)
 Upload screenshots to show UI changes or what the visual output should be from this branch's feature.
 
