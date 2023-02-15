@@ -3,5 +3,5 @@ export interface CardProps {
   color?: string;
   value: number;
   image: string;
-  faceUp: boolean;
+  faceUp?: boolean;
 }

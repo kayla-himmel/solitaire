@@ -127,7 +127,7 @@ export const DeckObject = () => {
   console.log(deck);
   return (
     <div onClick={() => shuffleDeck(deck)}>
-      <img src={deck[0].image}/>
+      
     </div>
   );
 }
