@@ -6,15 +6,15 @@
   "editor.codeActionsOnSave": {
     "source.fixAll": true
   },
+  "editor.formatOnSave": true,
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
   "workbench.startupEditor": "welcomePageInEmptyWorkbench",
   "workbench.editor.highlightModifiedTabs": false,
   "terminal.integrated.cursorBlinking": true,
   "css.lint.float": "warning",
   "scss.format.spaceAroundSelectorSeparator": true,
   "scss.lint.float": "warning",
-  "css.styleSheets": [
-  
-  ],
+  "css.styleSheets": [],
   "eslint.alwaysShowStatus": true,
   "eslint.format.enable": true,
   "eslint.probe": [

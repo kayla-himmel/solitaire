@@ -16,8 +16,11 @@ You will also see any lint errors in the console.
 
 ### `npm test`
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+Launches unit tests for components. We're using React Testing Library and Jest for unit testing.
+
+### `npm testcafe`
+
+Launches integration tests. We're using TestCafe for integration testing.
 
 ### `npm run build`
 
