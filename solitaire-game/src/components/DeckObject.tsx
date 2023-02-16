@@ -62,76 +62,95 @@ import heartsKing from "../assets/hearts_king.svg";
 
 export const DeckObject = () => {
   
-  const deck = [
-    // SPADES
-    new Card('SPADES', 1, spadesAce),
-    new Card('SPADES', 2, spades2),
-    new Card('SPADES', 3, spades3),
-    new Card('SPADES', 4, spades4),
-    new Card('SPADES', 5, spades5),
-    new Card('SPADES', 6, spades6),
-    new Card('SPADES', 7, spades7),
-    new Card('SPADES', 8, spades8),
-    new Card('SPADES', 9, spades9),
-    new Card('SPADES', 10, spades10),
-    new Card('SPADES', 11, spadesJack),
-    new Card('SPADES', 12, spadesQueen),
-    new Card('SPADES', 13, spadesKing),
+  // const deck = [
+  //   // SPADES
+  //   new Card('SPADES', 1, spadesAce),
+  //   new Card('SPADES', 2, spades2),
+  //   new Card('SPADES', 3, spades3),
+  //   new Card('SPADES', 4, spades4),
+  //   new Card('SPADES', 5, spades5),
+  //   new Card('SPADES', 6, spades6),
+  //   new Card('SPADES', 7, spades7),
+  //   new Card('SPADES', 8, spades8),
+  //   new Card('SPADES', 9, spades9),
+  //   new Card('SPADES', 10, spades10),
+  //   new Card('SPADES', 11, spadesJack),
+  //   new Card('SPADES', 12, spadesQueen),
+  //   new Card('SPADES', 13, spadesKing),
 
-    // DIAMONDS
-    new Card('DIAMONDS', 1, diamondsAce),
-    new Card('DIAMONDS', 2, diamonds2),
-    new Card('DIAMONDS', 3, diamonds3),
-    new Card('DIAMONDS', 4, diamonds4),
-    new Card('DIAMONDS', 5, diamonds5),
-    new Card('DIAMONDS', 6, diamonds6),
-    new Card('DIAMONDS', 7, diamonds7),
-    new Card('DIAMONDS', 8, diamonds8),
-    new Card('DIAMONDS', 9, diamonds9),
-    new Card('DIAMONDS', 10, diamonds10),
-    new Card('DIAMONDS', 11, diamondsJack),
-    new Card('DIAMONDS', 12, diamondsQueen),
-    new Card('DIAMONDS', 13, diamondsKing),
+  //   // DIAMONDS
+  //   new Card('DIAMONDS', 1, diamondsAce),
+  //   new Card('DIAMONDS', 2, diamonds2),
+  //   new Card('DIAMONDS', 3, diamonds3),
+  //   new Card('DIAMONDS', 4, diamonds4),
+  //   new Card('DIAMONDS', 5, diamonds5),
+  //   new Card('DIAMONDS', 6, diamonds6),
+  //   new Card('DIAMONDS', 7, diamonds7),
+  //   new Card('DIAMONDS', 8, diamonds8),
+  //   new Card('DIAMONDS', 9, diamonds9),
+  //   new Card('DIAMONDS', 10, diamonds10),
+  //   new Card('DIAMONDS', 11, diamondsJack),
+  //   new Card('DIAMONDS', 12, diamondsQueen),
+  //   new Card('DIAMONDS', 13, diamondsKing),
 
-    // CLUBS
-    new Card('CLUBS', 1, clubsAce),
-    new Card('CLUBS', 2, clubs2),
-    new Card('CLUBS', 3, clubs3),
-    new Card('CLUBS', 4, clubs4),
-    new Card('CLUBS', 5, clubs5),
-    new Card('CLUBS', 6, clubs6),
-    new Card('CLUBS', 7, clubs7),
-    new Card('CLUBS', 8, clubs8),
-    new Card('CLUBS', 9, clubs9),
-    new Card('CLUBS', 10, clubs10),
-    new Card('CLUBS', 11, clubsJack),
-    new Card('CLUBS', 12, clubsQueen),
-    new Card('CLUBS', 13, clubsKing),
+  //   // CLUBS
+  //   new Card('CLUBS', 1, clubsAce),
+  //   new Card('CLUBS', 2, clubs2),
+  //   new Card('CLUBS', 3, clubs3),
+  //   new Card('CLUBS', 4, clubs4),
+  //   new Card('CLUBS', 5, clubs5),
+  //   new Card('CLUBS', 6, clubs6),
+  //   new Card('CLUBS', 7, clubs7),
+  //   new Card('CLUBS', 8, clubs8),
+  //   new Card('CLUBS', 9, clubs9),
+  //   new Card('CLUBS', 10, clubs10),
+  //   new Card('CLUBS', 11, clubsJack),
+  //   new Card('CLUBS', 12, clubsQueen),
+  //   new Card('CLUBS', 13, clubsKing),
 
-    // HEARTS
-    new Card('HEARTS', 1, heartsAce),
-    new Card('HEARTS', 2, hearts2),
-    new Card('HEARTS', 3, hearts3),
-    new Card('HEARTS', 4, hearts4),
-    new Card('HEARTS', 5, hearts5),
-    new Card('HEARTS', 6, hearts6),
-    new Card('HEARTS', 7, hearts7),
-    new Card('HEARTS', 8, hearts8),
-    new Card('HEARTS', 9, hearts9),
-    new Card('HEARTS', 10, hearts10),
-    new Card('HEARTS', 11, heartsJack),
-    new Card('HEARTS', 12, heartsQueen),
-    new Card('HEARTS', 13, heartsKing),
-  ];
-  // !! REMOVE LOG ONCE GAME START IS IMPLEMENTED
-  console.log(deck);
-  return (
-    <div onClick={() => shuffleDeck(deck)}>
+  //   // HEARTS
+  //   new Card('HEARTS', 1, heartsAce),
+  //   new Card('HEARTS', 2, hearts2),
+  //   new Card('HEARTS', 3, hearts3),
+  //   new Card('HEARTS', 4, hearts4),
+  //   new Card('HEARTS', 5, hearts5),
+  //   new Card('HEARTS', 6, hearts6),
+  //   new Card('HEARTS', 7, hearts7),
+  //   new Card('HEARTS', 8, hearts8),
+  //   new Card('HEARTS', 9, hearts9),
+  //   new Card('HEARTS', 10, hearts10),
+  //   new Card('HEARTS', 11, heartsJack),
+  //   new Card('HEARTS', 12, heartsQueen),
+  //   new Card('HEARTS', 13, heartsKing),
+  // ];
+  // // !! REMOVE LOG ONCE GAME START IS IMPLEMENTED
+  // console.log(deck);
+  // return (
+  //   <div onClick={() => shuffleDeck(deck)}>
       
-    </div>
-  );
+  //   </div>
+  // );
 }
   
+// MOVE TO NEW FILE
+// build JSON file of the deck (example)
+// const deck = {
+//   heartsKing: {
+//     suit: hearts,
+//     value: 13,
+//     name: heartsKing,
+//     image: '../assets/hearts_king.svg',
+//     alt: 'King of Hearts"
+//   },
+// }
+
+// in this file, import the JSON object from the new deck file
+// possibly use {...props} instead of call out each one individually
+function buildDeck = () => {
+  deck.map({
+    <Card suit={deck.suit} value={deck.value} key={deck.name} src={deck.image} />
+  })
+}
 
 /**
  * Randomly shuffles a given deck.
