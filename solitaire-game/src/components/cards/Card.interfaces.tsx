@@ -2,6 +2,7 @@ export interface CardProps {
   suit: string;
   color?: string;
   value: number;
-  image: string;
+  cardFront: string;
+  key: string;
   faceUp?: boolean;
 }

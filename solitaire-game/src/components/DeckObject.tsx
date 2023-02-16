@@ -1,4 +1,6 @@
-import {Card} from './cards/Card';
+import { Card } from "./cards/Card";
+import { CardProps } from "./cards/Card.interfaces";
+import CardData from "../data/CardData.json";
 
 // SPADES
 import spadesAce from "../assets/spades_ace.svg";
@@ -61,7 +63,24 @@ import heartsQueen from "../assets/hearts_queen.svg";
 import heartsKing from "../assets/hearts_king.svg";
 
 export const DeckObject = () => {
-  
+  const initialDeck: CardProps[] = CardData as CardProps[];
+
+  console.log(initialDeck);
+  buildDeck(initialDeck);
+
+  return (
+    <div>
+      {initialDeck.map((newCard) => (
+        <Card
+          suit={newCard.suit}
+          cardFront={newCard.cardFront}
+          value={newCard.value}
+          color={newCard.color}
+          key={newCard.key}
+        />
+      ))}
+    </div>
+  );
   // const deck = [
   //   // SPADES
   //   new Card('SPADES', 1, spadesAce),
@@ -127,11 +146,11 @@ export const DeckObject = () => {
   // console.log(deck);
   // return (
   //   <div onClick={() => shuffleDeck(deck)}>
-      
+
   //   </div>
   // );
-}
-  
+};
+
 // MOVE TO NEW FILE
 // build JSON file of the deck (example)
 // const deck = {
@@ -146,10 +165,16 @@ export const DeckObject = () => {
 
 // in this file, import the JSON object from the new deck file
 // possibly use {...props} instead of call out each one individually
-function buildDeck = () => {
-  deck.map({
-    <Card suit={deck.suit} value={deck.value} key={deck.name} src={deck.image} />
-  })
+function buildDeck(deck: CardProps[]) {
+  deck.map((newCard) => (
+    <Card
+      suit={newCard.suit}
+      cardFront={newCard.cardFront}
+      value={newCard.value}
+      color={newCard.color}
+      key={newCard.key}
+    />
+  ));
 }
 
 /**
@@ -157,13 +182,13 @@ function buildDeck = () => {
  * @param {*} deck Deck of cards to be shuffled.
  * @returns Shuffled deck.
  */
-export function shuffleDeck(deck: Card[]) {
-  for (let i = deck.length - 1; i > 0; i--) {
-    let swapped = Math.floor(Math.random() * i);
-    let temp = deck[i];
-    deck[i] = deck[swapped];
-    deck[swapped] = temp;
-  }
-  console.log(deck);
-  return deck;
-}
+// export function shuffleDeck(deck: Card[]) {
+//   for (let i = deck.length - 1; i > 0; i--) {
+//     let swapped = Math.floor(Math.random() * i);
+//     let temp = deck[i];
+//     deck[i] = deck[swapped];
+//     deck[swapped] = temp;
+//   }
+//   console.log(deck);
+//   return deck;
+// }
