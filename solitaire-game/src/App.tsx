@@ -1,5 +1,5 @@
 import './App.css';
-import { DeckObject } from './components/DeckObject';
+import { DeckObject } from './utils/ShuffleDeck';
 
 function App() {
   return (

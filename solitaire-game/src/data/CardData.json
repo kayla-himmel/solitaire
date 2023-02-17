@@ -3,91 +3,91 @@
     "suit": "spades",
     "value": 1,
     "key": "spadesAce",
-    "cardFront": "../../assets/spades_ace.svg",
+    "cardFront": "spades_ace.svg",
     "color": "BLACK"
   },
   {
     "suit": "spades",
     "value": 2,
     "key": "spades2",
-    "cardFront": "../../assets/spades_2.svg",
+    "cardFront": "spades_2.svg",
     "color": "BLACK"
   },
   {
     "suit": "spades",
     "value": 3,
     "key": "spades3",
-    "cardFront": "../../assets/spades_3.svg",
+    "cardFront": "spades_3.svg",
     "color": "BLACK"
   },
   {
     "suit": "spades",
     "value": 4,
     "key": "spades4",
-    "cardFront": "../../assets/spades_4.svg",
+    "cardFront": "spades_4.svg",
     "color": "BLACK"
   },
   {
     "suit": "spades",
     "value": 5,
     "key": "spades5",
-    "cardFront": "../../assets/spades_5.svg",
+    "cardFront": "spades_5.svg",
     "color": "BLACK"
   },
   {
     "suit": "spades",
     "value": 6,
     "key": "spades6",
-    "cardFront": "../../assets/spades_6.svg",
+    "cardFront": "spades_6.svg",
     "color": "BLACK"
   },
   {
     "suit": "spades",
     "value": 7,
     "key": "spades7",
-    "cardFront": "../../assets/spades_7.svg",
+    "cardFront": "spades_7.svg",
     "color": "BLACK"
   },
   {
     "suit": "spades",
     "value": 8,
     "key": "spades8",
-    "cardFront": "../../assets/spades_8.svg",
+    "cardFront": "spades_8.svg",
     "color": "BLACK"
   },
   {
     "suit": "spades",
     "value": 9,
     "key": "spades9",
-    "cardFront": "../../assets/spades_9.svg",
+    "cardFront": "spades_9.svg",
     "color": "BLACK"
   },
   {
     "suit": "spades",
     "value": 10,
     "key": "spades10",
-    "cardFront": "../../assets/spades_10.svg",
+    "cardFront": "spades_10.svg",
     "color": "BLACK"
   },
   {
     "suit": "spades",
     "value": 11,
     "key": "spadesJack",
-    "cardFront": "../../assets/spades_jack.svg",
+    "cardFront": "spades_jack.svg",
     "color": "BLACK"
   },
   {
     "suit": "spades",
     "value": 12,
     "key": "spadesQueen",
-    "cardFront": "../../assets/spades_Queen.svg",
+    "cardFront": "spades_queen.svg",
     "color": "BLACK"
   },
   {
     "suit": "spades",
     "value": 13,
     "key": "spadesKing",
-    "cardFront": "../../assets/spades_king.svg",
+    "cardFront": "spades_king.svg",
     "color": "BLACK"
   },
 
@@ -96,91 +96,91 @@
     "suit": "diamonds",
     "value": 1,
     "key": "diamondsAce",
-    "cardFront": "../../assets/diamonds_ace.svg",
+    "cardFront": "diamonds_ace.svg",
     "color": "RED"
   },
   {
     "suit": "diamonds",
     "value": 2,
     "key": "diamonds2",
-    "cardFront": "../../assets/diamonds_2.svg",
+    "cardFront": "diamonds_2.svg",
     "color": "RED"
   },
   {
     "suit": "diamonds",
     "value": 3,
     "key": "diamonds3",
-    "cardFront": "../../assets/diamonds_3.svg",
+    "cardFront": "diamonds_3.svg",
     "color": "RED"
   },
   {
     "suit": "diamonds",
     "value": 4,
     "key": "diamonds4",
-    "cardFront": "../../assets/diamonds_4.svg",
+    "cardFront": "diamonds_4.svg",
     "color": "RED"
   },
   {
     "suit": "diamonds",
     "value": 5,
     "key": "diamonds5",
-    "cardFront": "../../assets/diamonds_5.svg",
+    "cardFront": "diamonds_5.svg",
     "color": "RED"
   },
   {
     "suit": "diamonds",
     "value": 6,
     "key": "diamonds6",
-    "cardFront": "../../assets/diamonds_6.svg",
+    "cardFront": "diamonds_6.svg",
     "color": "RED"
   },
   {
     "suit": "diamonds",
     "value": 7,
     "key": "diamonds7",
-    "cardFront": "../../assets/diamonds_7.svg",
+    "cardFront": "diamonds_7.svg",
     "color": "RED"
   },
   {
     "suit": "diamonds",
     "value": 8,
     "key": "diamonds8",
-    "cardFront": "../../assets/diamonds_8.svg",
+    "cardFront": "diamonds_8.svg",
     "color": "RED"
   },
   {
     "suit": "diamonds",
     "value": 9,
     "key": "diamonds9",
-    "cardFront": "../../assets/diamonds_9.svg",
+    "cardFront": "diamonds_9.svg",
     "color": "RED"
   },
   {
     "suit": "diamonds",
     "value": 10,
     "key": "diamonds10",
-    "cardFront": "../../assets/diamonds_10.svg",
+    "cardFront": "diamonds_10.svg",
     "color": "RED"
   },
   {
     "suit": "diamonds",
     "value": 11,
     "key": "diamondsJack",
-    "cardFront": "../../assets/diamonds_jack.svg",
+    "cardFront": "diamonds_jack.svg",
     "color": "RED"
   },
   {
     "suit": "diamonds",
     "value": 12,
     "key": "diamondsQueen",
-    "cardFront": "../../assets/diamonds_Queen.svg",
+    "cardFront": "diamonds_queen.svg",
     "color": "RED"
   },
   {
     "suit": "diamonds",
     "value": 13,
     "key": "diamondsKing",
-    "cardFront": "../../assets/diamonds_king.svg",
+    "cardFront": "diamonds_king.svg",
     "color": "RED"
   },
 
@@ -190,91 +190,91 @@
     "suit": "clubs",
     "value": 1,
     "key": "clubsAce",
-    "cardFront": "../../assets/clubs_ace.svg",
+    "cardFront": "clubs_ace.svg",
     "color": "BLACK"
   },
   {
     "suit": "clubs",
     "value": 2,
     "key": "clubs2",
-    "cardFront": "../../assets/clubs_2.svg",
+    "cardFront": "clubs_2.svg",
     "color": "BLACK"
   },
   {
     "suit": "clubs",
     "value": 3,
     "key": "clubs3",
-    "cardFront": "../../assets/clubs_3.svg",
+    "cardFront": "clubs_3.svg",
     "color": "BLACK"
   },
   {
     "suit": "clubs",
     "value": 4,
     "key": "clubs4",
-    "cardFront": "../../assets/clubs_4.svg",
+    "cardFront": "clubs_4.svg",
     "color": "BLACK"
   },
   {
     "suit": "clubs",
     "value": 5,
     "key": "clubs5",
-    "cardFront": "../../assets/clubs_5.svg",
+    "cardFront": "clubs_5.svg",
     "color": "BLACK"
   },
   {
     "suit": "clubs",
     "value": 6,
     "key": "clubs6",
-    "cardFront": "../../assets/clubs_6.svg",
+    "cardFront": "clubs_6.svg",
     "color": "BLACK"
   },
   {
     "suit": "clubs",
     "value": 7,
     "key": "clubs7",
-    "cardFront": "../../assets/clubs_7.svg",
+    "cardFront": "clubs_7.svg",
     "color": "BLACK"
   },
   {
     "suit": "clubs",
     "value": 8,
     "key": "clubs8",
-    "cardFront": "../../assets/clubs_8.svg",
+    "cardFront": "clubs_8.svg",
     "color": "BLACK"
   },
   {
     "suit": "clubs",
     "value": 9,
     "key": "clubs9",
-    "cardFront": "../../assets/clubs_9.svg",
+    "cardFront": "clubs_9.svg",
     "color": "BLACK"
   },
   {
     "suit": "clubs",
     "value": 10,
     "key": "clubs10",
-    "cardFront": "../../assets/clubs_10.svg",
+    "cardFront": "clubs_10.svg",
     "color": "BLACK"
   },
   {
     "suit": "clubs",
     "value": 11,
     "key": "clubsJack",
-    "cardFront": "../../assets/clubs_jack.svg",
+    "cardFront": "clubs_jack.svg",
     "color": "BLACK"
   },
   {
     "suit": "clubs",
     "value": 12,
     "key": "clubsQueen",
-    "cardFront": "../../assets/clubs_Queen.svg",
+    "cardFront": "clubs_queen.svg",
     "color": "BLACK"
   },
   {
     "suit": "clubs",
     "value": 13,
     "key": "clubsKing",
-    "cardFront": "../../assets/clubs_king.svg",
+    "cardFront": "clubs_king.svg",
     "color": "BLACK"
   },
 
@@ -284,91 +284,91 @@
     "suit": "hearts",
     "value": 1,
     "key": "heartsAce",
-    "cardFront": "../../assets/hearts_ace.svg",
+    "cardFront": "hearts_ace.svg",
     "color": "RED"
   },
   {
     "suit": "hearts",
     "value": 2,
     "key": "hearts2",
-    "cardFront": "../../assets/hearts_2.svg",
+    "cardFront": "hearts_2.svg",
     "color": "RED"
   },
   {
     "suit": "hearts",
     "value": 3,
     "key": "hearts3",
-    "cardFront": "../../assets/hearts_3.svg",
+    "cardFront": "hearts_3.svg",
     "color": "RED"
   },
   {
     "suit": "hearts",
     "value": 4,
     "key": "hearts4",
-    "cardFront": "../../assets/hearts_4.svg",
+    "cardFront": "hearts_4.svg",
     "color": "RED"
   },
   {
     "suit": "hearts",
     "value": 5,
     "key": "hearts5",
-    "cardFront": "../../assets/hearts_5.svg",
+    "cardFront": "hearts_5.svg",
     "color": "RED"
   },
   {
     "suit": "hearts",
     "value": 6,
     "key": "hearts6",
-    "cardFront": "../../assets/hearts_6.svg",
+    "cardFront": "hearts_6.svg",
     "color": "RED"
   },
   {
     "suit": "hearts",
     "value": 7,
     "key": "hearts7",
-    "cardFront": "../../assets/hearts_7.svg",
+    "cardFront": "hearts_7.svg",
     "color": "RED"
   },
   {
     "suit": "hearts",
     "value": 8,
     "key": "hearts8",
-    "cardFront": "../../assets/hearts_8.svg",
+    "cardFront": "hearts_8.svg",
     "color": "RED"
   },
   {
     "suit": "hearts",
     "value": 9,
     "key": "hearts9",
-    "cardFront": "../../assets/hearts_9.svg",
+    "cardFront": "hearts_9.svg",
     "color": "RED"
   },
   {
     "suit": "hearts",
     "value": 10,
     "key": "hearts10",
-    "cardFront": "../../assets/hearts_10.svg",
+    "cardFront": "hearts_10.svg",
     "color": "RED"
   },
   {
     "suit": "hearts",
     "value": 11,
     "key": "heartsJack",
-    "cardFront": "../../assets/hearts_jack.svg",
+    "cardFront": "hearts_jack.svg",
     "color": "RED"
   },
   {
     "suit": "hearts",
     "value": 12,
     "key": "heartsQueen",
-    "cardFront": "../../assets/hearts_Queen.svg",
+    "cardFront": "hearts_queen.svg",
     "color": "RED"
   },
   {
     "suit": "hearts",
     "value": 13,
     "key": "heartsKing",
-    "cardFront": "../../assets/hearts_king.svg",
+    "cardFront": "hearts_king.svg",
     "color": "RED"
   }
 ]

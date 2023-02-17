@@ -1,6 +1,6 @@
 import React, { FC, ReactElement } from 'react';
 import {CardProps} from "./Card.interfaces";
-import {cardImage} from "`${cardFront}`";
+import useImage from '../../hooks/useImage';
 
 export const Card: FC<CardProps> = ({
   suit, 
@@ -12,36 +12,19 @@ export const Card: FC<CardProps> = ({
   ...props
 }): ReactElement => {
 
-  // const cardImage = import(`${cardFront}`).then(image => {this.setState({
-  //   image
-  // })});
+  //https://stackoverflow.com/questions/53775936/import-image-dynamically-in-react-component
+  // need to configure this properly now that i know it works
+  const { loading, error, image } = useImage(cardFront);
 
   color = suit === "DIAMONDS" || suit === "HEARTS" ? "RED" : "BLACK";
   // either figure out a way to get image here or just bring it in from the deck/pile
   return (
     <div className="card" {...props}>
-      <img src={cardFront} id={key} alt={`${value} of ${suit}`}/>
+      { loading ? (
+        <p>oops</p>
+      ) : (
+        <img src={image} id={key} alt={`${value} of ${suit}`} height="200"/>
+      )}
     </div>
   );
 }
-
-// export class Card implements CardProps {
-//   suit: string;
-//   color: string;
-//   value: number;
-//   image: string;
-//   faceUp: boolean = false;
-
-//   constructor(
-//     suit: string,
-//     value: number,
-//     image: string,
-//     faceUp?: boolean
-//   ) {
-//     this.suit = suit;
-//     this.color = suit === "DIAMONDS" || suit === "HEARTS" ? "RED" : "BLACK";
-//     this.value = value;
-//     this.image = image;
-//     faceUp = faceUp ? faceUp : false;
-//   }
-// }
