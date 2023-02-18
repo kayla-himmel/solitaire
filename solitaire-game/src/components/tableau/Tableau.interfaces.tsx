@@ -1,5 +1,5 @@
-import React, { ReactNode } from 'react'
+import React, { ReactNode } from 'react';
 
 export interface TableauProps {
-  children: ReactNode;
+  // children: ReactNode;
 }

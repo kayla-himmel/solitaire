@@ -1,48 +1,30 @@
-import React, {Children} from 'react'
-import { TableauProps } from './Tableau.interfaces'
+import React from 'react';
+import { Pile } from '../piles/Pile';
+import { TableauProps } from './Tableau.interfaces';
+import './Tableau.scss';
 
-export const Tableau: React.FC<TableauProps> = ({
-  children,
-}) => {
-  // create the 7 tableau piles (the main stacks of the game board)
-  // const tableauPile () => {
-  //   const parent = document.getElementById('tableauParent');
-  //   const pileSpot = document.createElement('div');
-  //   const arrayChildren = Children.toArray(children);
+export const Tableau: React.FC<TableauProps> = () => {
+  // create the 7 tableau columns (the main stacks of the game board that house the piles of cards)
+  const createTableauColumns = () => {
+    const parent = document.getElementById('tableauParent');
+    const tableauColumns = document.createElement('div');
 
-  //   create piles
-  //   for (let i = 0; i <= 7; i++) {
-  //     pileSpot.setAttribute('id', `tableauSpot-${i}`);
+    // create Columns
+    for (let i = 0; i < 7; i++) {
+      tableauColumns.setAttribute('id', `tableauColumns-${i}`);
+      tableauColumns.setAttribute('class', 'tableauColumns');
 
-  //     // append the piles to the parent div
-  //     if (parent) {
-  //       parent.append(pileSpot)
-  //     } else {
-  //       const newParent = document.createElement('div');
-  //       newParent.append(pileSpot)
-  //     }
-      
-  //   //   // Children.map(arrayChildren, (child, index) => {
-  //   //   //   const pileChild = index === arrayChildren.length;
+      // append the Columns to the parent div
+      if (parent) {
+        parent.append(tableauColumns);
+      } else {
+        const newParent = document.createElement('div');
+        newParent.append(tableauColumns);
+      }
+    }
+  };
 
-  //   //   //   const pileSpotId = pileSpot.id.split('-');
+  createTableauColumns();
 
-  //   //   //   if (pileSpot.getAttribute('id', `tableauSpot-${i}`))
-  //   // }
-
-  //   tableauPile();
-  // }
-
-  // TO-DO: Swap divs out with Pile component once those are made
-  return (
-    <div id='tableauParent'>
-      <div id="tableau-0"></div>
-      <div id="tableau-1"></div>
-      <div id="tableau-2"></div>
-      <div id="tableau-3"></div>
-      <div id="tableau-4"></div>
-      <div id="tableau-5"></div>
-      <div id="tableau-6"></div>
-    </div>
-  )
+  return <div id="tableauParent"></div>;
 };
